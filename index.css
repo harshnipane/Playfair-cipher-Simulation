@@ -1,0 +1,29 @@
+.jumbotron {
+	background-color: #404258;
+	color: white;
+}
+
+.exm {
+	font-size: 20px;
+
+}
+
+.tech {
+	margin-bottom: 50px;
+}
+
+.tech p {
+	font-size: 18px;
+}
+
+img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.cryp {
+	color: white;
+}
+

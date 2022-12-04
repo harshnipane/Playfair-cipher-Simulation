@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+    <head>
+        <title>WebPage</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">      
+        <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body class="cryp" style="background-color:#282A3A;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="home.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="playfair.html">Playfair <span class="sr-only">(current)</span></a>
+    </div>
+  </div>
+</nav>
+
+   <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4"><b>Cryptography</b></h1>
+    <p class="lead">Cryptography is technique of securing information and communications through use of codes so that only those person for whom the information is intended can understand it and process it. Thus preventing unauthorized access to information. The prefix “crypt” means “hidden” and suffix graphy means “writing”. In Cryptography the techniques which are use to protect information are obtained from mathematical concepts and a set of rule based calculations known as algorithms to convert messages in ways that make it hard to decode it.</p>
+  </div>
+</div>
+
+    <div class="container tech">
+            <h2>Substitution technique</h2>
+            <p>Substitution technique is a classical encryption approach where the characters present in the initial message are restored by the other characters or numbers or by symbols. If the plain text (original message) is treated as the string of bits, thus the substitution technique would restore bit pattern of plain text with the bit pattern of cipher text.</p>
+            <p>There are various types of substitution ciphers which are as follows −</p>
+            <ul>
+                    <li><h4>Monoalphabetic Cipher −</h4>
+                    <p>In monoalphabetic substitution cipher, a character in a plaintext is always restored or changed to the similar character in the ciphertext indifferent of its position in the text.</p>
+                    </li>
+                    <li><h4>Polyalphabetic cipher −</h4>
+                    <p>In polyalphabetic substitution, each appearance of a character in the plaintext can have a different substitution character in the ciphertext.</p>
+                    </li>     
+                </ul>
+
+                <br>
+                
+               <h2>Transposition technique</h2>
+            <p>In cryptography, a transposition cipher is a method of encryption by which the positions held by units of plaintext (which are commonly characters or groups of characters) are shifted according to a regular system, so that the ciphertext constitutes a permutation of the plaintext. That is, the order of the units is changed. Mathematically a bijective function is used on the characters' positions to encrypt and
+            an inverse function to decrypt.</p>
+            <p>There are various types of transposition ciphers which are as follows −</p>
+            <ul>
+                    <li><h4>Keyed Transposition cipher −</h4>
+                    <p>In this approach, rather than permuting all the symbols together, we divide the entire plaintext into blocks of predetermined size and then permute each block independently.</p>
+                    </li>
+                    <li><h4>Keyless Transposition Cipher −</h4>
+                    <p>In this cipher technique, the message is converted to ciphertext by either of two permutation techniques:
+
+                        a. Text is written into a table column-by-column and is then transmitted row-by-row.
+
+                        b. Text is written into a table row-by-row and is then transmitted column-by-column</p>
+                    </li>     
+                </ul> 
+
+                <br>
+                <div align="center" class="container">
+                    
+                    <a href="playfair.html">
+                        <button class="btn btn-primary btn-lg">Play</button>
+                    </a>
+                </div>
+
+
+                       
+        </div>
+
+    </body>
+
+    </html>
